@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f2ff; /* Fondo azul claro */
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff; /* Fondo blanco para el contenedor principal */
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #b3d9ff; /* Línea inferior en azul claro */
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #b3d9ff; /* Borde alrededor de la foto de perfil */
+}
+
+h1 {
+    color: #004080; /* Azul oscuro para el título principal */
+}
+
+section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f8ff; /* Fondo azul muy claro para las secciones */
+    border-left: 5px solid #b3d9ff; /* Barra izquierda azul clara */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+h2 {
+    color: #0059b3; /* Azul intermedio para los títulos de las secciones */
+    border-bottom: 2px solid #b3d9ff;
+    padding-bottom: 10px;
+}
+
+p, li {
+    color: #333333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #f0f8ff; /* Fondo azul claro para la tabla */
+}
+
+table, th, td {
+    border: 1px solid #b3d9ff; /* Bordes azul claro para la tabla */
+    padding: 10px;
+}
+
+th {
+    background-color: #b3d9ff; /* Fondo azul claro para los encabezados de la tabla */
+    color: #004080; /* Texto en azul oscuro para contraste */
+}
+
+th, td {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #004080;
+    font-size: 0.9em;
+}
